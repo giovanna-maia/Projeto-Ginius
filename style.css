@@ -1,0 +1,342 @@
+body {
+    background-color: #181818;
+}
+
+/* ------------------------------CABEÇALHO------------------------------  */
+
+header {
+    background-color: #181818;
+    padding-left: 20px 0;
+}
+
+.caixa-header {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.titulo-header {
+    font-family: "Roboto Mono", monospace;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    font-size: 40px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.titulo-header:before {
+  position: absolute;
+  top: 51%;
+  overflow: hidden;
+  width: 48%;
+  height: 5px;
+  content: '\a0';
+  background: rgb(254,28,0);
+  background: linear-gradient(90deg, rgba(254,28,0,1) 0%, rgba(255,199,0,1) 25%, rgba(25,177,0,1) 50%, rgba(0,35,255,1) 100%);
+  margin-left: 2%;
+}
+
+.titulo-header:before {
+  margin-left: -50%;
+  text-align: right;
+}
+
+nav {
+    position: absolute;
+    top: 105px;
+    right: 0;
+    
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    font-family: "Roboto Mono", monospace;
+    color: #FFFFFF;
+    font-size: 20px;
+    text-decoration: none;
+    transition: 10s;
+}
+
+nav a:hover {
+  animation: animateColors 3s infinite;
+  opacity: 1;
+}
+
+@keyframes animateColors {
+  0% { color: #FE1C00; }
+  25% { color: #FFC700}
+  50% { color: #19B100; }
+  100% { color: #0023FF; }
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+/* ------------------------------TEXTO------------------------------  */
+
+.principal {
+    background-color: #181818;
+    width: 940px;
+    margin: auto;
+}
+
+h2 {
+    font-family: "Roboto Mono", monospace;
+    color: #FFFFFF;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: right;
+    margin-right: 100px;
+    padding-bottom: 10px;
+}
+
+h2:after {
+  position: absolute;
+  display: inline;
+  margin-top: 10px;
+  overflow: hidden;
+  width: 500px;
+  height: 5px;
+  content: '\a0';
+  background: rgb(254,28,0);
+  background: linear-gradient(90deg, rgba(254,28,0,1) 0%, rgba(255,199,0,1) 25%, rgba(25,177,0,1) 50%, rgba(0,35,255,1) 100%);
+  margin-left: 2%;
+}
+
+.h2:after {
+  margin-left: -50%;
+  text-align: right;
+}
+
+h3 {
+  font-family: "Roboto Mono", monospace;
+  color: #FFFFFF;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.sublinhado-gradiente {
+  padding-bottom: 4px;
+  position: relative;
+  text-decoration: none;
+}
+
+.sublinhado-gradiente:after {
+  background: rgb(254,28,0);
+  background: linear-gradient(90deg, rgba(254,28,0,1) 0%, rgba(255,199,0,1) 25%, rgba(25,177,0,1) 50%, rgba(0,35,255,1) 100%);
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 200px;
+  height: 2px;
+  width: 530px;
+}
+
+p {
+    font-family: "Roboto Mono", monospace;
+    color: #FFFFFF;
+    text-align: left;
+    font-size: 20px;
+    padding: 10px;
+}
+
+/* ------------------------------GINIUS------------------------------  */
+
+.ginius-jogo {
+  padding: 5px;
+}
+
+.button {
+    border-radius: 10px !important;
+    font-size: 1.5em;
+    background-color: #FFFFFF;
+    text-transform: uppercase;
+    margin: 10px;
+  }
+  
+  #switches {
+    position: absolute;
+    font-family: "Roboto Mono", monospace;
+    margin-left: 26px;
+    margin-top: 100px;
+  }
+
+  /* --Turno --*/
+  .text2 {
+    position: absolute;
+    font-family: "Roboto Mono", monospace;
+    margin-left: 88px;
+    margin-top: 205px;
+    text-transform: uppercase;
+  }
+  
+  /* --Ligar e Estrito --*/
+ .text1 {
+    position: absolute;
+    font-family: "Roboto Mono", monospace;
+    margin-left: 15px;
+    margin-top: 142px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .text1 span:last-child {
+    padding-left: 90px;
+  }
+  
+  #title {
+    font-family: "Roboto Mono", monospace;
+    position: absolute;
+    font-size: 40px;
+    margin-left: 40px;
+    margin-top: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: underline;
+  }
+  
+  #turn {
+    position: absolute;
+    background: #330000;
+    color: red;
+    font-family: "Roboto Mono", monospace;
+    font-size: 20px;
+    height: 30px;
+    width: 50px;
+    margin-left: 90px;
+    margin-top: 170px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    text-transform: uppercase;
+  }
+  
+  #outer-circle {
+    background: #385a94;
+    border-radius: 20px;
+    height: 500px;
+    width: 500px;
+    position: relative;
+    border-style: solid;
+    border-width: 10px;
+    margin: auto;
+    margin-top: 60px;
+    box-shadow: #888888 0px 5px 50px;
+  }
+  
+  #topleft {
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    border-radius: 10px 0 0 0;
+    -moz-border-radius: 10px 0 0 0;
+    -webkit-border-radius: 10px 0 0 0;
+    background: #19B100;
+    top: 50%;
+    left: 50%;
+    margin: -250px 0px 0px -250px;
+    border-style: solid;
+    border-width: 5px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
+  
+  #topright {
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    border-radius: 0 10px 0 0;
+    -moz-border-radius: 0 10px 0 0;
+    -webkit-border-radius: 0 10px 0 0;
+    background: #FE1C00;
+    top: 50%;
+    left: 50%;
+    margin: -250px 0px 0px 0px;
+    border-style: solid;
+    border-width: 5px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
+  
+  #bottomleft {
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    border-radius: 0 0 0 10px;
+    -moz-border-radius: 0 0 0 10px;
+    -webkit-border-radius: 0 0 0 10px;
+    background: #FFC700;
+    top: 50%;
+    left: 50%;
+    margin: 0px -250px 0px -250px;
+    border-style: solid;
+    border-width: 5px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
+  
+  #bottomright {
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    border-radius: 0 0 10px 0;
+    -moz-border-radius: 0 0 10px 0;
+    -webkit-border-radius: 0 0 10px 0;
+    background: #0023FF;
+    top: 50%;
+    left: 50%;
+    margin: 0px 0px -250px 0px;
+    border-style: solid;
+    border-width: 5px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
+  
+  #inner-circle {
+    position: absolute;
+    background: #c3c3c3;
+    border-radius: 20%;
+    height: 250px;
+    width: 250px;
+    border-style: solid;
+    border-width: 10px;
+    top: 50%;
+    left: 50%;
+    margin: -125px 0px 0px -125px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
+
+/* ------------------------------FOOTER------------------------------  */
+
+footer {
+  padding: 90px 0 20px 0;
+  text-align: center;
+}
+
+footer img {
+  width: 70px;
+}
+
+.texto-footer p {
+    background-color: #181818;
+    font-family: "Roboto Mono", monospace;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+

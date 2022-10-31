@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-devide-width">
+        <title>Projeto Ginius</title>
+
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+
+        <audio id="clip1">
+            <source src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3"></source>
+        </audio>
+        <audio id="clip2">
+            <source src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3"></source>
+        </audio>
+        <audio id="clip3">
+            <source src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3"></source>
+        </audio>
+        <audio id="clip4">
+            <source src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3"></source>
+        </audio>
+    </head>
+
+    <body>
+        <header>
+            <div class="caixa-header">
+                <h1 class="titulo-header">Projeto Ginius</h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="progresso.html">progresso</a></li>
+                        <li><a href="contato.html">contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <div class="principal">
+                <h2>Sobre o Projeto</h2>
+
+                <p>Esse é o Projeto Ginius! Baseado no jogo Genius (ou Simon, em inglês), esse projeto foi desenvolvido para praticar conhecimentos em HTML, CSS e JavaScript.</p>
+                <P>Para iniciar a partida, selecione a caixa "ligar" e pressione o botão "START". Caso você selecione o modo "estrito", você perde o jogo se cometer um erro. </P>
+                <p>Faça uma sequência de 20 turnos para ganhar!</p>
+
+                <h3 class="sublinhado-gradiente">E aí? Quer testar sua memória?</h3>
+            </div>
+
+            <div class="ginius-jogo">
+                <div id="outer-circle">
+                    <div id="topleft"></div>
+                    <div id="topright"></div>
+                    <div id="bottomleft"></div>
+                    <div id="bottomright"></div>
+                    <div id="inner-circle">
+                    <div id="title">Ginius</div>
+                    <div id="switches">
+                        <input type="checkbox" class="toggle" id="on">
+                        <button class="button" id="start">Start</button>
+                        <input type="checkbox" class="toggle" id="strict">
+                    </div>
+                    <div class="text1">
+                        <span>Ligar</span><span>Estrito</span>
+                    </div>
+                    <div id="turn"></div>
+                    <div class="text2">
+                        Turno
+                    </div>
+                    </div>
+                </div>
+             </div>
+
+      </main>
+
+      <footer>
+        <img src="puzzle-color.png">
+        <div class="texto-footer">
+            <p>Projeto Ginius</p>
+            <p>Giovanna Maia</p>
+            <p>2022</p>
+        </div>
+      </footer>
+       
+    <script src="JavaScript/index.js"></script>
+
+    </body>
+
+
+</html>
