@@ -12,4 +12,5 @@ Meus principais aprendizados foram:
 Apesar do jogo ser completamente funcional, sei que ainda preciso aprimorar a responsividade da página, a organização do código fonte e outros detalhes.
 Aliás, pegou o trocadilho? O Ginius, desenvolvido pela Gigi? Risos!
 
+Ele está hospedado no Github Pages! Então, caso você queira conferir, acesse o link: https://giovanna-maia.github.io/Projeto-Ginius/
 Espero que vocês se divirtam! :)
