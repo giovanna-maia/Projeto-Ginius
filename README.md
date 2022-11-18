@@ -10,5 +10,6 @@ Meus principais aprendizados foram:
   - Utilizar diversos tipos de HTML DOM Element
   
 Apesar do jogo ser completamente funcional, sei que ainda preciso aprimorar a responsividade da página, a organização do código fonte e outros detalhes.
+Aliás, pegou o trocadilho? O Ginius, desenvolvido pela Gigi? Risos!
 
 Espero que vocês se divirtam! :)
