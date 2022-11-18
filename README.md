@@ -8,4 +8,6 @@ Meus principais aprendizados foram:
   - Utilizar funções em JavaScript
   - Utilizar diversos tipos de HTML DOM Element
   
+Apesar do jogo ser completamente funcional, sei que ainda preciso aprimorar a responsividade da página e a organização do código fonte.
+
 Espero que vocês se divirtam! :)
